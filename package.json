@@ -14,13 +14,13 @@
   },
   "license": "ISC",
   "keywords": [
-    "open-source",
-    "javascript-library",
-    "string-manipulation",
+    "open source",
+    "javascript library",
+    "string manipulation",
     "vowels",
-    "text-processing",
-    "string-utilities",
-    "javascript-regex"
+    "text processing",
+    "string utilities",
+    "javascript regex"
   ],
   "devDependencies": {
     "@babel/cli": "^7.23.4",
