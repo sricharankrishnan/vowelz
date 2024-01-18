@@ -1,0 +1,25 @@
+{
+  "name": "vowelz",
+  "version": "1.0.0",
+  "description": "A JavaScript library for efficient manipulation of vowels within strings. Count, transform case, extract positions, and perform various operations on vowels with ease. Enhance your text processing and string transformations using Vowelz.",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel ./src -d ./dist"
+  },
+  "author": "Sricharan Krishnan",
+  "license": "ISC",
+  "keywords": [
+    "vowels",
+    "string",
+    "manipulation",
+    "text",
+    "processing"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.23.4",
+    "@babel/core": "^7.23.7",
+    "@babel/preset-env": "^7.23.8",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
