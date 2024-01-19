@@ -1,4 +1,7 @@
 # Vowelz
+![NPM Downloads](https://img.shields.io/npm/dt/vowelz)
+![Maintenance](https://img.shields.io/maintenance/yes/2024)
+
 
 ### About
 A JavaScript library for efficient manipulation of vowels within strings. Count, transform case, extract positions, and perform various operations on vowels with ease. 
