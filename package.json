@@ -1,6 +1,6 @@
 {
   "name": "vowelz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A JavaScript library for efficient manipulation of vowels within strings. Count, transform case, extract positions, and perform various operations on vowels with ease. Enhance your text processing and string transformations using Vowelz.",
   "main": "index.js",
   "homepage": "https://github.com/sricharankrishnan/vowelz",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/sricharankrishnan/vowelz"
   },
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "open source",
     "javascript library",
