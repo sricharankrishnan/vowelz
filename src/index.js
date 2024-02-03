@@ -133,7 +133,7 @@ class Vowelz {
       return;
     }
 
-    const uniqueVowels = new Set(arg.match(/[aeiou]/gi));
+    const uniqueVowels = new Set(arg.toLowerCase().match(/[aeiou]/g));
     return uniqueVowels.size;
   }
 
