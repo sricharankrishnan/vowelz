@@ -24,6 +24,62 @@ var Vowelz = /*#__PURE__*/function () {
       return true;
     }
 
+    /* vowel encryptoin */
+  }, {
+    key: "vowelEncryption",
+    value: function vowelEncryption(arg) {
+      var $this = this;
+      if (!$this.checkIfPropIsString(arg)) {
+        throw new Error("Needed argument to be of type string but is not: ".concat(arg));
+        return;
+      }
+      var encryptionMap = {
+        a: '@',
+        e: '3',
+        i: '!',
+        o: '0',
+        u: '*'
+      };
+      return arg.replace(/[aeiou]/gi, function (vowel) {
+        return encryptionMap[vowel.toLowerCase()] || vowel;
+      });
+    }
+
+    /* replace vowels with a given character */
+  }, {
+    key: "replaceVowelsWithCharacter",
+    value: function replaceVowelsWithCharacter(arg, character) {
+      var $this = this;
+      if (!$this.checkIfPropIsString(arg)) {
+        throw new Error("Needed argument to be of type string but is not: ".concat(arg));
+        return;
+      } else if (typeof character !== 'string' || character.length !== 1) {
+        throw new Error('Character must be a single character string.');
+        return;
+      } else {
+        return arg.replace(/[aeiou]/gi, character);
+      }
+    }
+
+    /* counts the number of vowels */
+  }, {
+    key: "countAllVowels",
+    value: function countAllVowels(arg) {
+      var $this = this;
+      if (!$this.checkIfPropIsString(arg)) {
+        throw new Error("Needed argument to be of type string but is not: ".concat(arg));
+        return;
+      }
+      var vowels = ['a', 'e', 'i', 'o', 'u'];
+      var vowelCounts = {};
+      vowels.forEach(function (vowel) {
+        var regex = new RegExp(vowel, 'gi');
+        var matches = arg.match(regex);
+        vowelCounts[vowel] = matches ? matches.length : 0;
+      });
+      return vowelCounts;
+    }
+
     /* sets all vowels to lower case */
   }, {
     key: "setAllVowelsToLowerCase",
