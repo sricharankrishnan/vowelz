@@ -34,6 +34,11 @@ console.log("How many vowels are there in the word: ", vowelz.getCount("hello wo
 - ```extractAllVowelsFromString(arg: string):``` returns all of the vowels that are present in a string. Takes in one argument which must be a string only.
 - ```getCountOfUniqueVowels(arg: string):``` returns the number of vowels in a string (non repeating). Takes in one argument which must be a string only.
 - ```removeAllVowelsFromString(arg: string):``` removes all vowels in a string and then returns the string. Takes in one argument which must be a string only.
+- ```setAllVowelsToUppercase(arg: string):``` converts all vowels present in a string value to uppercase. Takes in one argument which must be a string only.
+- ```setAllVowelsToLowerCase(arg: string):``` converts all vowels present in a string value to lowercase. Takes in one argument which must be a string only.
+- ```countAllVowels(arg: string):``` provides a count of individual vowels in a string value and returns the result in the form of an object. Takes in one argument which must be a string only.
+- ```replaceVowelsWithCharacter(arg: string, character: string):``` replaces vowels in a string with the given custom character argument. Both <b>arg</b> and <b>character</b> are mandatory. The character argument is to be a single character only.
+- ```vowelEncryption(arg: string):``` method returns a string value with vowels that are convered to encyrpted characters. Takes in one argument which must be a string only.
 <br/><br/>
 
 ### Contributions
