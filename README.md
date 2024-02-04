@@ -15,7 +15,7 @@ foo@foobar-terminal~: npm install --save vowelz
 - Import the package into your respectie file. Please note that the package has a default export.
 ```javascript
 /* node module imports */
-import Vowelz from "vowelz";
+const Vowelz = require("vowelz");
 ```
 - Create a class instance of the imported package and then you can, directly use a method. More details about the method APIS in the following section
 ```javascript
