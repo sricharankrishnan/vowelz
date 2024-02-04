@@ -2,7 +2,7 @@
 import Vowelz from "../src/index.js";
 
 /* t-suite */
-describe("Vowelz removeAllVowelsFromString method", () => {
+describe("Vowelz - removeAllVowelsFromString method", () => {
   let myVowelz = null;
 
   beforeAll(() => {

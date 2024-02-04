@@ -96,8 +96,8 @@ var Vowelz = /*#__PURE__*/function () {
 
     /* sets all vowels to upper case */
   }, {
-    key: "setAllVowelsToUppercase",
-    value: function setAllVowelsToUppercase(arg) {
+    key: "setAllVowelsToUpperCase",
+    value: function setAllVowelsToUpperCase(arg) {
       var $this = this;
       if (!$this.checkIfPropIsString(arg)) {
         throw new Error("Needed argument to be of type string but is not: ".concat(arg));
@@ -110,8 +110,8 @@ var Vowelz = /*#__PURE__*/function () {
 
     /* get how many vowels are there in a string value */
   }, {
-    key: "getCount",
-    value: function getCount(arg) {
+    key: "getTotalCount",
+    value: function getTotalCount(arg) {
       var $this = this;
       if (!$this.checkIfPropIsString(arg)) {
         throw new Error("Needed argument to be of type string but is not: ".concat(arg));
@@ -158,7 +158,7 @@ var Vowelz = /*#__PURE__*/function () {
         throw new Error("Needed argument to be of type string but is not: ".concat(arg));
         return;
       }
-      var uniqueVowels = new Set(arg.match(/[aeiou]/gi));
+      var uniqueVowels = new Set(arg.toLowerCase().match(/[aeiou]/g));
       return uniqueVowels.size;
     }
 

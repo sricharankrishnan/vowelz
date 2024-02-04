@@ -75,7 +75,7 @@ class Vowelz {
   }
 
   /* sets all vowels to upper case */
-  setAllVowelsToUppercase(arg) {
+  setAllVowelsToUpperCase(arg) {
     var $this = this;
     if (!$this.checkIfPropIsString(arg)) {
       throw new Error(`Needed argument to be of type string but is not: ${arg}`);
@@ -88,7 +88,7 @@ class Vowelz {
   }
 
   /* get how many vowels are there in a string value */
-  getCount(arg) {
+  getTotalCount(arg) {
     var $this = this;
     if (!$this.checkIfPropIsString(arg)) {
       throw new Error(`Needed argument to be of type string but is not: ${arg}`);

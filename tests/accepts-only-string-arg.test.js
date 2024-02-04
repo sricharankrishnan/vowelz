@@ -55,23 +55,23 @@ describe("Vowelz - Methods Accepts Only String Args", () => {
     }).toThrow();
   });
 
-  test("getCount() - accepts only string arg", () => {
+  test("getTotalCount() - accepts only string arg", () => {
     expect(() => {
-      myVowelz.getCount(stringArg);
+      myVowelz.getTotalCount(stringArg);
     }).not.toThrow();
 
     expect(() => {
-      myVowelz.getCount(nonStringArg);
+      myVowelz.getTotalCount(nonStringArg);
     }).toThrow();
   });
 
-  test("setAllVowelsToUppercase() - accepts only string arg", () => {
+  test("setAllVowelsToUpperCase() - accepts only string arg", () => {
     expect(() => {
-      myVowelz.setAllVowelsToUppercase(stringArg);
+      myVowelz.setAllVowelsToUpperCase(stringArg);
     }).not.toThrow();
 
     expect(() => {
-      myVowelz.setAllVowelsToUppercase(nonStringArg);
+      myVowelz.setAllVowelsToUpperCase(nonStringArg);
     }).toThrow();
   });
 
