@@ -41,6 +41,20 @@ console.log("How many vowels are there in the word: ", myVowelz.getTotalCount("h
 - ```vowelEncryption(arg: string):``` method returns a string value with vowels that are convered to encyrpted characters. Takes in one argument which must be a string only.
 <br/><br/>
 
+## Test Coverage
+
+File      | % Stmts | % Branch | % Funcs | % Lines |              
+----------|---------|----------|---------|---------|
+All files |   83.33 |    94.11 |     100 |   83.09 |                                         
+ index.js |   83.33 |    94.11 |     100 |   83.09 |
+ 
+Test Suites: 11 passed, 11 total<br/>
+Tests:       54 passed, 54 total<br/>
+Snapshots:   0 total<br/>
+Time:        4.241 s<br/>
+Ran all test suites.
+<br/><br/>
+
 ### Contributions
 Do you have an idea? May be you wish to add another method to this existing library? Or perhaps you've found a bug? Please feel free to raise a github issue and I would resolve it at the earliest possible.
 <br/><br/>
