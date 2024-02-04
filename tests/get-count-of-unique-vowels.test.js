@@ -1,5 +1,5 @@
 /* app imports */
-import Vowelz from "../src/index.js";
+const Vowelz = require("../src/index.js");
 
 /* t-suite */
 describe("Vowelz - getCountOfUniqueVowels method", () => {

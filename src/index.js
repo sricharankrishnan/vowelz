@@ -148,4 +148,4 @@ class Vowelz {
     return arg.replace(/[aeiou]/gi, '');
   }
 }
-export default Vowelz;
+module.exports = Vowelz;

@@ -4,7 +4,7 @@
 
 
 ### About
-A JavaScript library for efficient manipulation of vowels within strings. Count, transform case, extract positions, and perform various operations on vowels with ease. 
+A JavaScript library for efficient manipulation of vowels within strings. Count, transform case, extract positions, and perform various operations on vowels with ease.
 <br/><br/>
 
 ### Getting Started
@@ -20,16 +20,16 @@ import Vowelz from "vowelz";
 - Create a class instance of the imported package and then you can, directly use a method. More details about the method APIS in the following section
 ```javascript
 /* node module imports */
-import Vowelz from "vowelz";
+const Vowelz = require("vowelz");
 
 /* create an instance and use methods... */
-const vowelz = new Vowelz();
-console.log("How many vowels are there in the word: ", vowelz.getCount("hello world"));
+const myVowelz = new Vowelz();
+console.log("How many vowels are there in the word: ", myVowelz.getTotalCount("hello world"));
 ```
 <br/>
 
 ### Usage (Methods/API)
-- ```getCount(arg: string):``` returns the number of vowels that are present in a string value. Takes in one argument which must be a string only.
+- ```getTotalCount(arg: string):``` returns the number of vowels that are present in a string value. Takes in one argument which must be a string only.
 - ```getPositionsOfVowels(arg: string):``` returns the index values of the vowels that are present in a string value. Takes in one argument which must be a string only.
 - ```extractAllVowelsFromString(arg: string):``` returns all of the vowels that are present in a string. Takes in one argument which must be a string only.
 - ```getCountOfUniqueVowels(arg: string):``` returns the number of vowels in a string (non repeating). Takes in one argument which must be a string only.
